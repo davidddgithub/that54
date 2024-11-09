@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibir e Ocultar Imagem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Estilo para o botão */
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #005f73;
+        }
+
+        /* A imagem ficará oculta inicialmente */
+        #imagem {
+            display: none; /* Inicialmente, a imagem está escondida */
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Clique no botão para mostrar/ocultar a imagem</h1>
+
+    <!-- Botão para mostrar/ocultar a imagem -->
+    <button onclick="toggleImagem()">Mostrar/Ocultar Imagem</button>
+
+    <!-- A imagem que será exibida/ocultada -->
+    <img id="imagem" src="sua-imagem.jpg" alt="Imagem" />
+
+    <script>
+        // Função que alterna a exibição da imagem
+        function toggleImagem() {
+            var imagem = document.getElementById("imagem");
+
+            // Verifica se a imagem está visível ou oculta
+            if (imagem.style.display === "none" || imagem.style.display === "") {
+                imagem.style.display = "block";  // Exibe a imagem
+            } else {
+                imagem.style.display = "none";   // Oculta a imagem
+            }
+        }
+    </script>
+
+</body>
+</html>

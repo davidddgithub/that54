@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>site is funny</title>
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	left:214px;
+	top:214px;
+	width:186px;
+	height:371px;
+	z-index:1;
+	background-color: #00CC00;
+}
+.style1 {font-size: 24px}
+#Layer2 {
+	position:absolute;
+	left:416px;
+	top:214px;
+	width:178px;
+	height:368px;
+	z-index:2;
+	background-color: #00CC00;
+}
+#Layer3 {
+	position:absolute;
+	left:611px;
+	top:213px;
+	width:190px;
+	height:372px;
+	z-index:3;
+	background-color: #00CC00;
+}
+#Layer4 {
+	position:absolute;
+	left:820px;
+	top:212px;
+	width:205px;
+	height:373px;
+	z-index:4;
+	background-color: #00CC00;
+}
+#Layer5 {
+	position:absolute;
+	left:10px;
+	top:213px;
+	width:191px;
+	height:370px;
+	z-index:5;
+	background-color: #00CC00;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="Layer1"></div>
+<div id="Layer2"></div>
+<div id="Layer3"></div>
+<div id="Layer4"></div>
+<div id="Layer5">ggfgh</div>
+<img src="" alt="" name="fhfgh" width="1020" height="192" id="fhfgh" />
+<div id="layer"></div>
+</body>
+</html>
